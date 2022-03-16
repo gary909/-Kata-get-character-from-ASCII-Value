@@ -1,5 +1,6 @@
 function getChar(c){
-    // ...
+    let myString = String.fromCharCode(c);
+    return myString;
 }
 
 console.log(getChar(55)); // '7'
